@@ -7,12 +7,12 @@ app = FastAPI()
 
 # IBM Cloud DB2 connection string
 DB2_CONNECTION_STRING = (
-    "DATABASE=bludb;"
-    "HOSTNAME=ba99a9e6-d59e-4883-8fc0-d6a8c9f7a08f.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud;"
+    "DATABASE=<db>;"
+    "HOSTNAME=<hostname>;"
     "PORT=31321;"
     "PROTOCOL=TCPIP;"
-    "UID=zcf94894;"
-    "PWD=NAaw00LZ6oJJ5Uio;"
+    "UID=<username>;"
+    "PWD=<pwd>;"
     "SECURITY=SSL;"
  )
 
